@@ -1,0 +1,73 @@
+body{ background-color: rgb(125, 168, 248);
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace
+    }
+    p{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    text-align: justify;
+    }
+    h1{ color: blue;
+    font-family:'Courier New', Courier, monospace
+    }
+    ul{ color: rgb(47, 47, 148);
+    font-family: 'Courier New', Courier, monospace;
+    }
+    ol{color:brown;
+    font-family:'Courier New', Courier, monospace;
+    }
+    .nav-enlace{
+        background-color: rgb(54, 174, 225);
+        color: #000000;
+        padding: 10px 30px;
+    
+    }
+    .nav-enlace:hover{
+        background-color: rgb(49, 82, 200);
+    }
+    nav{
+        background-color: rgb(33, 19, 160);
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 100vh;
+    
+    }
+    section{
+        border: 2px solid #ccc; 
+        padding: 20px ;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        
+    }
+    .s1{   background-color: #201a98;}
+    .s2{background-color: #272764;}
+    .s3{background-color: #5897d6;}
+    .s4{background-color: #28206a;}
+    header, section, footer{
+        padding: 20px;
+        color: rgb(231, 225, 225);
+    }
+    header{
+        border: 2px solid #ccc;
+        background-color: #bfc8f0;
+    }
+    section{
+        border: 2px solid #0c0606;
+        background-color: #2d3881;
+        min-height: 200px;
+    }
+    footer{
+        border: 2px solid #ccc;
+        background-color: #6acaed;
+        text-align: center;
+    }
